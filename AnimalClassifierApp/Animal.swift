@@ -50,8 +50,8 @@ class Animal {
         // get a url session
         let session = URLSession.shared
         
-        // create the data task
-        let dataTask = session.dataTask(with: url) { data, response, error in
+        // create the data task - this will fetch the actual image data of a given image url
+        let dataTask = session.dataTask(with: url!) { data, response, error in
             
             // check that there are no errors and there was data
             if error == nil && data != nil {
@@ -60,5 +60,6 @@ class Animal {
         }
         
         // start the data task
+        dataTask.resume()
     }
 }
