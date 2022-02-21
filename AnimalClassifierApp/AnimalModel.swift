@@ -45,8 +45,9 @@ class AnimalModel : ObservableObject {
                             
                             // must complete in the main thread
                             DispatchQueue.main.async {
-                                // do not move on until imageData has been fetched
-                                while animal.imageData == nil {}
+                                // an infinite loop
+                                // do not move on until prediction results has been fetched
+                                while animal.results.isEmpty {}
                                 self.animal = animal
                             
                             }
