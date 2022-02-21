@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		079BC91A27C33B0000A10EF3 /* AnimalClassifierAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079BC91927C33B0000A10EF3 /* AnimalClassifierAppApp.swift */; };
+		079BC91A27C33B0000A10EF3 /* AnimalClassifierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079BC91927C33B0000A10EF3 /* AnimalClassifierApp.swift */; };
 		079BC91C27C33B0000A10EF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079BC91B27C33B0000A10EF3 /* ContentView.swift */; };
 		079BC91E27C33B0200A10EF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 079BC91D27C33B0200A10EF3 /* Assets.xcassets */; };
 		079BC92127C33B0200A10EF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 079BC92027C33B0200A10EF3 /* Preview Assets.xcassets */; };
@@ -18,7 +18,7 @@
 
 /* Begin PBXFileReference section */
 		079BC91627C33B0000A10EF3 /* AnimalClassifierApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalClassifierApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		079BC91927C33B0000A10EF3 /* AnimalClassifierAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalClassifierAppApp.swift; sourceTree = "<group>"; };
+		079BC91927C33B0000A10EF3 /* AnimalClassifierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalClassifierApp.swift; sourceTree = "<group>"; };
 		079BC91B27C33B0000A10EF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		079BC91D27C33B0200A10EF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		079BC92027C33B0200A10EF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 		079BC91827C33B0000A10EF3 /* AnimalClassifierApp */ = {
 			isa = PBXGroup;
 			children = (
-				079BC91927C33B0000A10EF3 /* AnimalClassifierAppApp.swift */,
+				079BC91927C33B0000A10EF3 /* AnimalClassifierApp.swift */,
 				079BC91B27C33B0000A10EF3 /* ContentView.swift */,
 				079BC91D27C33B0200A10EF3 /* Assets.xcassets */,
 				079BC91F27C33B0200A10EF3 /* Preview Content */,
@@ -148,7 +148,7 @@
 			files = (
 				079BC92C27C33DB500A10EF3 /* Constants.swift in Sources */,
 				079BC91C27C33B0000A10EF3 /* ContentView.swift in Sources */,
-				079BC91A27C33B0000A10EF3 /* AnimalClassifierAppApp.swift in Sources */,
+				079BC91A27C33B0000A10EF3 /* AnimalClassifierApp.swift in Sources */,
 				079BC92827C33BCF00A10EF3 /* Animal.swift in Sources */,
 				079BC92A27C33D7900A10EF3 /* AnimalModel.swift in Sources */,
 			);
