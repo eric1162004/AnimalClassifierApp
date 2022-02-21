@@ -15,7 +15,6 @@
 		079BC92A27C33D7900A10EF3 /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079BC92927C33D7900A10EF3 /* AnimalModel.swift */; };
 		079BC92C27C33DB500A10EF3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079BC92B27C33DB500A10EF3 /* Constants.swift */; };
 		07F86FF827C3548D00EA31B0 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 07F86FF727C3548D00EA31B0 /* MobileNetV2.mlmodel */; };
-		07F86FFC27C3603F00EA31B0 /* CatOrDog 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 07F86FFB27C3603F00EA31B0 /* CatOrDog 1.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +27,6 @@
 		079BC92927C33D7900A10EF3 /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
 		079BC92B27C33DB500A10EF3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		07F86FF727C3548D00EA31B0 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
-		07F86FFB27C3603F00EA31B0 /* CatOrDog 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "CatOrDog 1.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,17 +59,12 @@
 		079BC91827C33B0000A10EF3 /* AnimalClassifierApp */ = {
 			isa = PBXGroup;
 			children = (
-				079BC91927C33B0000A10EF3 /* AnimalClassifierApp.swift */,
-				079BC91B27C33B0000A10EF3 /* ContentView.swift */,
-				079BC91D27C33B0200A10EF3 /* Assets.xcassets */,
-				079BC91F27C33B0200A10EF3 /* Preview Content */,
 				079BC92727C33BCF00A10EF3 /* Animal.swift */,
 				079BC92927C33D7900A10EF3 /* AnimalModel.swift */,
 				079BC91B27C33B0000A10EF3 /* ContentView.swift */,
 				079BC91927C33B0000A10EF3 /* AnimalClassifierApp.swift */,
 				079BC92B27C33DB500A10EF3 /* Constants.swift */,
 				079BC91D27C33B0200A10EF3 /* Assets.xcassets */,
-				07F86FFB27C3603F00EA31B0 /* CatOrDog 1.mlmodel */,
 				07F86FF727C3548D00EA31B0 /* MobileNetV2.mlmodel */,
 				079BC91F27C33B0200A10EF3 /* Preview Content */,
 			);
@@ -160,7 +153,6 @@
 				079BC92C27C33DB500A10EF3 /* Constants.swift in Sources */,
 				079BC91C27C33B0000A10EF3 /* ContentView.swift in Sources */,
 				079BC91A27C33B0000A10EF3 /* AnimalClassifierApp.swift in Sources */,
-				07F86FFC27C3603F00EA31B0 /* CatOrDog 1.mlmodel in Sources */,
 				079BC92827C33BCF00A10EF3 /* Animal.swift in Sources */,
 				079BC92A27C33D7900A10EF3 /* AnimalModel.swift in Sources */,
 			);
